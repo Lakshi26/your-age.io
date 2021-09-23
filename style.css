@@ -1,0 +1,101 @@
+body{
+    background-color: #282828;
+}
+.container1{
+    border: 1px solid white;
+    width: 25%;
+    text-align: center;
+    position:fixed;
+    top: 35%;
+    left: 40%;
+    font-family: 'Roboto', sans-serif;
+    
+    
+
+}
+#fname{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    background-color: #282828;
+    border-radius: 5px;
+    height: 35px;
+    color: rgb(201, 201, 201);
+    width: 200px;
+    font-size: 11px;
+
+
+}
+#button{
+    height: 35px;
+    width: 100px;
+    margin-bottom: 7px;
+    background: linear-gradient(93.64deg, #FFFFFF -59.46%, rgba(255, 255, 255, 0) 237.84%);
+    border-radius: 5px;
+}
+.flex-box-container1 {
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box-container1 div{
+    padding: 10px;
+   
+    display: flex;
+    align-items: center;
+}
+.flex-box-container2 div{
+    border: 1px solid  white;
+    
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-weight: 300;
+
+}
+    
+
+#flex-box-result{
+    color: white;
+    
+   
+}
+.btn1{
+    height: 35px;
+    width: 100px;
+    margin-bottom: 7px;
+    background: linear-gradient(93.64deg, #FFFFFF -59.46%, rgba(255, 255, 255, 0) 237.84%);
+    border-radius: 5px;
+    
+
+}
+.btn2{
+    height: 35px;
+    width: 100px;
+    margin-bottom: 7px;
+    background: linear-gradient(93.64deg, #FFFFFF -59.46%, rgba(255, 255, 255, 0) 237.84%);
+    border-radius: 5px;
+
+}
+@media only screen and (max-width : 540px)  and (orientation : portrait){
+    .container1{
+        width: 200px;
+        margin-left: -65px;
+        margin-top: -70px;
+        font-size: 10px;
+    }
+    #fname{
+        width: 150px;
+    }
+}
+@media only screen and (max-width : 850px)  and (orientation : portrait){
+    .container1{
+        width: 200px;
+
+    }
+    #fname{
+        width: 150px;
+        font-size: 10px;
+    }
+}
