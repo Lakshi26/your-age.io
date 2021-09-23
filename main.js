@@ -1,7 +1,7 @@
 function ageInDays(){
     event.preventDefault()
     var birthDate = document.getElementById("fname").value;
-    var result = (2018-birthDate) * 365;
+    var result = (2021-birthDate) * 365;
     var h1 = document.createElement('h1'); 
     var textAnswer = document.createTextNode(result);
 
